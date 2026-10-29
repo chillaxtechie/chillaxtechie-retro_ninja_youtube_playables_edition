@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Retro Ninja - YouTube Playables Edition</title>
+    <meta name="description" content="Retro Ninja arcade game ported and configured for YouTube Playables SDK with cloud saves, audio sync, ads, and packaging tools." />
+    <meta property="og:title" content="Retro Ninja - YouTube Playables Edition" />
+    <meta property="og:description" content="Retro Ninja arcade game ported and configured for YouTube Playables SDK with cloud saves, audio sync, ads, and packaging tools." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Mobile orientation & web app configuration -->
+    <meta name="screen-orientation" content="landscape" />
+    <meta name="x5-orientation" content="landscape" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Google Fonts for authentic retro 8-bit / arcade feeling -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CRITICAL: YouTube Playables SDK MUST load before your game scripts -->
+    <script src="https://www.youtube.com/game_api/v1/ytgame.js"></script>
+    <script type="module" crossorigin src="./assets/index-2Ek9XM5d.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BwJOaeiC.css">
+  </head>
+  <body class="bg-stone-950 text-stone-100 antialiased select-none overflow-hidden m-0 p-0 w-screen h-screen">
+    <div id="root" class="w-full h-full"></div>
+  </body>
+</html>
+
